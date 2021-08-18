@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "*.wxml": "html",
+        "*.wxss": "css"
+    },
+    
+    // 对EasyLess的配置，此段配置去掉则默认生成一个css文件
+    // "less.compile": {
+    //     "compress": false, //是否压缩
+    //     "sourceMap": false, //是否生成map文件
+    //     "out": true, // 是否输出文件，false为不输出
+    //     "outExt": ".wxss", // 输出文件的后缀,小程序可以写'wxss'
+    // },
+    "easysass.formats": [
+        {
+          "format": "expanded", //格式，expanded不压缩，compressed压缩
+          "extension": ".wxss" //输出文件的后缀,小程序可以写'wxss'
+        },
+        // {
+        //   "format": "compressed",
+        //   "extension": ".min.css"
+        // }
+      ],
+}

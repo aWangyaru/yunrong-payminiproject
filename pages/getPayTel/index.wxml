@@ -1,0 +1,25 @@
+<view>
+  <image class="" wx:if="{{platform=='Unicomeconomical'}}" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1628823714612.png" mode="widthFix" lazy-load="false" binderror="" bindload="" show-menu-by-longpress="true" />
+  <image class="" wx:if="{{platform=='Unicomequotient'}}" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1628823714612.png" mode="widthFix" lazy-load="false" binderror="" bindload="" show-menu-by-longpress="true" />
+  <image class="" wx:if="{{platform=='gzhjilin'}}" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1629269532006.png" mode="widthFix" lazy-load="false" binderror="" bindload="" show-menu-by-longpress="true" />
+  <van-dialog
+      use-slot
+      title=""
+      show="{{ telDialogShow }}"
+      bind:close="onClose"
+      showConfirmButton="{{false}}"
+      showCancelButton="{{false}}"
+      style="position: relative;overflow:inherit;"
+    >
+      <view class="content">
+        <view class="title" selectable="false" space="false" decode="false">
+          授权提示
+        </view>
+        <view class="tel" selectable="false" space="false" decode="false">
+          需要获取您的公开信息(手机号等)
+        </view>
+        <button class='getTel' type='primary' open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">微信一键登录</button>
+      </view>
+    </van-dialog>
+</view>
+    

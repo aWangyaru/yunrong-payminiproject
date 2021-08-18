@@ -1,0 +1,2 @@
+<!--pages/home/index.wxml-->
+<image class="" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1624417569439.jpg" mode="widthFix" lazy-load="false" binderror="" bindload="" bindtap="intoTelPage"/>
