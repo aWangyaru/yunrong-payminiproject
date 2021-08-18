@@ -1,4 +1,5 @@
 <view>
+  <image class="" wx:if="{{platform==''}}" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1629081314382.png" mode="widthFix" lazy-load="false" binderror="" bindload="" show-menu-by-longpress="true" />
   <image class="" wx:if="{{platform=='Unicomeconomical'}}" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1628823714612.png" mode="widthFix" lazy-load="false" binderror="" bindload="" show-menu-by-longpress="true" />
   <image class="" wx:if="{{platform=='Unicomequotient'}}" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1628823714612.png" mode="widthFix" lazy-load="false" binderror="" bindload="" show-menu-by-longpress="true" />
   <image class="" wx:if="{{platform=='gzhjilin'}}" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1629269532006.png" mode="widthFix" lazy-load="false" binderror="" bindload="" show-menu-by-longpress="true" />

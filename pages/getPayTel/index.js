@@ -7,8 +7,7 @@ Page({
   data: {
     telDialogShow: false,
     platform: '',
-    outTradeNo: '',
-    haha: 1
+    outTradeNo: ''
   },
 
   /**
