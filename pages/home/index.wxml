@@ -1,2 +1,2 @@
 <!--pages/home/index.wxml-->
-<image class="" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1629340503732.jpeg" mode="widthFix" lazy-load="false" binderror="" bindload="" bindtap="intoTelPage"/>
+<image class="" src="https://picc-etdev-img-oss.oss-cn-beijing.aliyuncs.com/1629363243062.jpeg" mode="widthFix" lazy-load="false" binderror="" bindload="" bindtap="intoTelPage"/>
