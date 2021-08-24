@@ -14,6 +14,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log('手机号',wx.getStorageSync('tel'))
     this.setData({
       platform: options.platform,
       outTradeNo: options.outTradeNo
@@ -95,7 +96,7 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    wx.setStorageSync('tel', '')
+    // wx.setStorageSync('tel', '')
   },
 
   /**
