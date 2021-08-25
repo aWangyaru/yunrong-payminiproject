@@ -70,7 +70,7 @@ Page({
             phone: res.data.object.phoneNumber
           }
           wx.setStorageSync('tel', res.data.object.phoneNumber)
-          api.getOpenId(temp).then(res => {
+          api.repository(temp).then(res => {
             if (res.data.flag) {
             }
           })
